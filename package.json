@@ -1,9 +1,13 @@
 {
   "name": "machinepack-selectone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Select one item in a list",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abeauvois/machinepack-selectone.git"
   },
   "keywords": [
     "selectone",

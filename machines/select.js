@@ -15,11 +15,13 @@ module.exports = {
       typeclass: 'array',
       friendlyName: 'In array',
       description: 'The array to select',
+      example:[0,1,2,3],
       required: true
     },
     index: {
       description: 'The index of the item in array is selected',
       typeclass: '*',
+      example:2,
       required: true
     }
 
@@ -36,12 +38,13 @@ module.exports = {
     },
 
     success: {
-      description: 'Returns the selected item in array'
-      // getExample: function(inputs, env) {
-      //   if (Array.isArray(inputs.array) && (inputs.array.length>inputs.index)) {
-      //     return [inputs.array[inputs.index]];
-      //   }
-      // }
+      description: 'Returns the selected item in array',
+      // example:2
+      getExample: function(inputs, env) {
+
+          return 2;
+
+      }
     },
 
   },

@@ -14,7 +14,8 @@ npm-debug.log
 *.swn
 *.swm
 .DS_STORE
-.icon
+Icon
+*Icon
 *#
 *~
 .idea
