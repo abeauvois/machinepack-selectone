@@ -1,6 +1,6 @@
 {
   "name": "machinepack-selectone",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Select one item in a list",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"

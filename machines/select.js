@@ -1,15 +1,7 @@
 module.exports = {
-
-
   friendlyName: 'select',
-
-
   description: 'select item in a list',
-
-
   extendedDescription: '',
-
-
   inputs: {
     array: {
       typeclass: 'array',
@@ -27,9 +19,7 @@ module.exports = {
 
   },
 
-
   defaultExit: 'success',
-
 
   exits: {
 
@@ -39,14 +29,9 @@ module.exports = {
 
     success: {
       description: 'Returns the selected item in array',
-      // example:2
-      getExample: function(inputs, env) {
-
-          return 2;
-
-      }
+      example:2,
+      selected:'item selected'
     },
-
   },
 
   fn: function (inputs,exits) {
